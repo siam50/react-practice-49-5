@@ -1,0 +1,34 @@
+.meal img {
+    width: 300px;
+}
+
+.meal {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+    position: relative;
+}
+
+.meal button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: orange;
+    color: black;
+    border: none;
+    /* padding: 5px 0px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.meal button p {
+    margin-right: 10px;
+}
+
+.p {
+    margin-top: 0px;
+}

@@ -1,0 +1,17 @@
+.meals-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.meal-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+.cart-container {
+    background-color: burlywood;
+    /* position: sticky;
+    top: 0; */
+}
